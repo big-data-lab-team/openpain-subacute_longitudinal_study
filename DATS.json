@@ -27,7 +27,11 @@
 		        },
 			"access": {
 				"landingPage": "https://www.openpain.org/",
-				"annotation": "public"
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
 			}
 		}
 	],
