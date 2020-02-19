@@ -26,7 +26,8 @@
             			"value": "GB"
 		        },
 			"access": {
-				"landingPage": "https://www.openpain.org/"
+				"landingPage": "https://www.openpain.org/",
+				"annotation": "public"
 			}
 		}
 	],
