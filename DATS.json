@@ -8,33 +8,32 @@
 	],
     "creators": [
         {
-            "@type": "Organization",
             "name": "OpenPain"
         }
     ],
     "types": [
         {
-		"information":
-		{
-	            "value": "MRI"
-		}
+			"information":
+				{
+	            	"value": "MRI"
+				}
         },
         {
-		"information":
-		{
+			"information":
+			{
 	            "value": "fMRI"
-	        }
-	}
-    ], 
+			}
+		}
+    ],
     "distributions": [
-	        {
+	   	{
 			"formats": [
 				"NIfTI"
-            		],
+            ],
 			"size" : 117,
-		        "unit" : {
-            			"value": "GB"
-		        },
+		    "unit" : {
+            		"value": "GB"
+		    },
 			"access": {
 				"landingPage": "https://www.openpain.org/",
 				"authorizations": [
@@ -57,7 +56,6 @@
     "privacy": "Open Access",
     "isAbout": [
         {
-            "@type": "BiologicalEntity",
             "name": "adult human"
         }
     ],
@@ -70,7 +68,7 @@
                 }
             ]
         },
-	{
+		{
             "category": "subjects",
             "values": [
                 {
@@ -78,7 +76,7 @@
                 }
             ]
         },
-	{
+		{
 			"category": "contact",
 			"values": [
 				{
@@ -91,6 +89,17 @@
 			"values": [
 				{
 					"value": "external"
+				}
+			]
+		},
+		{
+			"category": "origin",
+			"values": [
+				{
+					"institution": "Northwestern University",
+					"city": "Evanston",
+					"province": "Illinois",
+					"country": "USA"
 				}
 			]
 		},
