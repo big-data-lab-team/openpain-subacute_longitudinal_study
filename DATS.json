@@ -112,7 +112,7 @@
 			"category": "origin_province",
 			"values": [
 				{
-					"value": "Ontario"
+					"value": "Illinois"
 				}
 			]
 		},
@@ -121,6 +121,14 @@
 			"values": [
 				{
 					"value": "USA"
+				}
+			]
+		},
+		{
+			"category": "subjects",
+			"values": [
+				{
+					"value": "122"
 				}
 			]
 		},
