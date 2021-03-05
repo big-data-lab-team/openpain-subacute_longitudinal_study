@@ -53,7 +53,7 @@
 		}
 	],
     "version": "1.0",
-    "privacy": "Open Access",
+    "privacy": "open",
     "isAbout": [
         {
             "name": "adult human"
