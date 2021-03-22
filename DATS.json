@@ -13,15 +13,25 @@
     ],
     "types": [
         {
-			"information":
+			"information": {
+			        "identifier": {
+            	        "identifier": "113091000",
+                	    "identifierSource":"http://purl.bioontology.org/ontology/SNOMEDCT/113091000"
+                	},
 				{
-	            	"value": "MRI"
+					"value": "MRI"
 				}
+			}
         },
         {
-			"information":
-			{
-	            "value": "fMRI"
+			"information": {
+                "identifier": {
+                    "identifier": "ilx_0506130",
+                    "identifierSource":"http://uri.interlex.org/base/ilx_0506130"
+                },
+				{
+					"value": "fMRI"
+				}
 			}
 		}
     ],
