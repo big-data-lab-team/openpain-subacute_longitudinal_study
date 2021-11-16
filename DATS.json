@@ -1,41 +1,69 @@
 {
     "title": "OpenPain subacute_longitudinal_study",
     "description": "This dataset represents a 5 year longitudinal study of transition to chronic back pain. 70 patients with subacute back pain were tracked from 2-16 weeks after injury (interview visit) for approximately one year later, with a subset also returning for a follow up visit approximately 2-3 years after pain onset. MRI scans and behavioral data were collected across 4 visits (or 5 in the case of 2-3 year follow up). Genetic data was additionally collected at study entry. Subjects all had been pain free for one year prior to their subacute pain episode, had no history of psychiatric illness or depression, were right handed, and at least 18 years old. Over the course of the study a subset of patients showed improvements in pain while others did not, allowing for the study of the brain and behavioral processes associated with pain persistence from a very early time point. Healthy subjects and chronic back pain patients (pain duration > 5 years) are also included as controls. Generally speaking a complete dataset for a single subject involves behavioral and genetic data at an interview visit, imaging data and behavioral data collected 2 weeks, 3 months, 6 months, 1 year and 2-3 years later. Imaging data consists of two rating tasks where subjects continuous report their pain using a finger mounted device with visual feedback, two visuomotor control tasks where subjects track an autonomously animate rating bar on a screen, a diffusion tensor imaging scan, and a T1 anatomical scan. A subset of subjects also have eyes-open resting state scans. Not all subjects have all this data available at every visit. Particularly in the case of behavioral data, subjects elected not to answer a number of questions. In some cases (e.g. medication use), this might be interpreted to mean that they had no relevant information to provide, but in other cases it may mean that the subject simply omitted an answer by accident. In all cases, missing data is indicated by an n/a entry, but we leave it up to others to interpret these as they see fit",
-    
+    "licenses": [
+		{
+			"name": "http://openpain.org/generalLicense.html"
+		}
+	],
     "creators": [
         {
-            "@type": "Organization",
             "name": "OpenPain"
         }
     ],
     "types": [
-        { 
-            "value": "MRI"
+        {
+			"information": {
+    	        "value": "MRI",
+           	    "valueIRI":"http://purl.bioontology.org/ontology/SNOMEDCT/113091000"
+           	}
         },
-        { 
-            "value": "fMRI"
-        }
-    ], 
+        {
+            "information": {
+                "value": "fMRI",
+                "valueIRI":"http://uri.interlex.org/base/ilx_0506130"
+            }
+		}
+    ],
     "distributions": [
-	        {
+	   	{
 			"formats": [
 				"NIfTI"
-            		],
+            ],
 			"size" : 117,
-		        "unit" : {
-            			"value": "GB"
-		        },
+		    "unit" : {
+            		"value": "GB"
+		    },
 			"access": {
-				"landingPage": "https://www.openpain.org/"
+				"landingPage": "https://www.openpain.org/",
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
 			}
 		}
 	],
+	"keywords": [
+		{
+			"value" : "human pain"
+		},
+		{
+			"value" : "brain imaging"
+		}
+	],
     "version": "1.0",
-    "privacy": "Open Access",
+    "privacy": "open",
     "isAbout": [
         {
-            "@type": "BiologicalEntity",
-            "name": "adult human"
+            "identifier": {
+                "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+				"identifierSource": "NCBI Taxonomy Database"
+            },
+            "name":"Homo sapiens"
+        },
+        {
+            "name":"adult"
         }
     ],
     "extraProperties": [
@@ -47,7 +75,7 @@
                 }
             ]
         },
-	{
+		{
             "category": "subjects",
             "values": [
                 {
@@ -55,7 +83,7 @@
                 }
             ]
         },
-	{
+		{
 			"category": "contact",
 			"values": [
 				{
@@ -68,6 +96,46 @@
 			"values": [
 				{
 					"value": "external"
+				}
+			]
+		},
+		{
+			"category": "origin_institution",
+			"values": [
+				{
+					"value": "Northwestern University"
+				}
+			]
+		},
+		{
+			"category": "origin_city",
+			"values": [
+				{
+					"value": "Evanston"
+				}
+			]
+		},
+		{
+			"category": "origin_province",
+			"values": [
+				{
+					"value": "Illinois"
+				}
+			]
+		},
+		{
+			"category": "origin_country",
+			"values": [
+				{
+					"value": "USA"
+				}
+			]
+		},
+		{
+			"category": "subjects",
+			"values": [
+				{
+					"value": "122"
 				}
 			]
 		},
